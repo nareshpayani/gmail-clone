@@ -6,7 +6,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-
+import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 
 function Header() {
     return (
@@ -25,7 +25,10 @@ function Header() {
                 <ArrowDropDownIcon className="header__inputCaret" />
             </div>
 
-            <div className="header__right">            
+            <div className="header__right">  
+                <IconButton> 
+                    <HelpOutlineIcon />
+                </IconButton>          
                 <IconButton> 
                     <AppsIcon />
                 </IconButton>
